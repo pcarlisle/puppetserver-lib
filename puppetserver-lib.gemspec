@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.license = 'Apache-2.0'
 
   s.platform = 'java'
-  s.files = ['target/puppetserver-lib.jar']
+  s.files = Dir['lib/*.rb'] + Dir['lib/*.jar']
   s.require_paths = ['lib']
 end
